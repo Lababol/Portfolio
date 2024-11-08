@@ -528,6 +528,17 @@ button:hover {
   .home {
       padding: 2rem;
   }
+  .home1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home1-content p{
+    display: flex;
+  }
+  .profile-photo img {
+    width: 300px;
+  }
   .hamburger {
       display: block;
       font-size: 30px;
@@ -642,12 +653,25 @@ button:hover {
   }
   .card {
     flex-basis: 100%;
-}
+  }
+  .profile-photo img {
+    width: 300px;
+    padding-left: 6rem;
+  }
+  .download-cv {
+    font-size: 0.9em;
+    padding: 10px 15px;
+  }
   nav ul {
       flex-direction: column;
       gap: 10px;
   }
-
+  .home {
+    padding: 10px;
+  }
+  .home1-content h2 {
+    font-size: 1.5em;
+  }
 
   li {
       margin: 10px 0;

@@ -241,6 +241,18 @@ body {
   padding: 10px;
   text-align: center;
 }
+.griditem1{
+  border: 1px solid #000;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.griditem1 img{
+  height: 4rem;
+  width: 4rem;
+  justify-content: center;
+}
 h1{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
@@ -501,7 +513,7 @@ button:hover {
   }
 
   .home img {
-      width: 16rem;
+      width: 22rem;
   }
 
   .home p {
@@ -516,6 +528,9 @@ button:hover {
   a {
       font-size: 16px;
       padding: 8px 10px;
+  }
+  .griditem1{
+    border: none;
   }
 }
 
@@ -579,7 +594,13 @@ button:hover {
       margin-right: 0;
       margin-bottom: 20px;
   }
-
+  .griditem1{
+    border: 1px solid #000;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
   .skills {
       gap: 10px;
   }
@@ -645,7 +666,7 @@ button:hover {
       flex-direction: column;
       padding: 5px;
   }
-
+  
   ul {
       flex-direction: column;
       text-align: center;
@@ -661,6 +682,9 @@ button:hover {
   .download-cv {
     font-size: 0.9em;
     padding: 10px 15px;
+  }
+  #home p{
+    font-size: 1rem;
   }
   nav ul {
       flex-direction: column;
